@@ -9,5 +9,5 @@ install:
   - python setup.py -q install
 script:
   - pulseaudio --start
-  - pulsemixer --help
+  - pulsemixer -l
   
